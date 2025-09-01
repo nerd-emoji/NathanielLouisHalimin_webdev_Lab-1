@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  background: linear-gradient(135deg, #6A6FD4 0%, #6D63C4 50%, #7156B1 100%);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -11,22 +11,23 @@ body {
   border-radius: 20px;
   padding: 40px;
   width: 350px;
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
 }
 .profile-icon {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: linear-gradient(135deg, #6A6FD4 0%, #6D63C4 50%, #7156B1 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto 15px;
   color: white;
   font-size: 40px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25), 0 1.5px 4px rgba(0,0,0,0.15);
 }
 .btn-login {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: linear-gradient(135deg, #6A6FD4 0%, #6D63C4 50%, #7156B1 100%);
   color: white;
   border: none;
 }
@@ -41,4 +42,24 @@ body {
 .google-btn img {
   width: 20px;
   margin-right: 8px;
+}
+.form-label {
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+.text-muted {
+  color: #C6C6C9;
+  font-size: 0.7rem;
+}
+.form-control {
+  border: 1.5px solid #E1E1E1;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 0.7rem;
+  color: #E1E1E1;
+  opacity: 0.8;
+}
+.my-3 {
+  margin-top: 1rem;
+  margin-bottom: 0px   !important;
 }
