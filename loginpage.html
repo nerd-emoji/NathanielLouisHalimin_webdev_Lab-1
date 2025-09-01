@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+  <div class="login-card">
+    <div class="profile-icon">
+      <i class="bi bi-person-fill"></i>
+    </div>
+    <h5 class="text-center fw-bold">Selamat Datang</h5>
+    <p class="text-center text-muted">Silahkan Login untuk Melanjutkan</p>
+
+    <form>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Masukkan Email Anda">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Masukkan Password Anda">
+      </div>
+
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <div>
+          <input type="checkbox" id="ingat">
+          <label for="ingat">Ingat Saya</label>
+        </div>
+        <a href="#" class="text-decoration-none">Lupa Password</a>
+      </div>
+
+      <button type="submit" class="btn btn-login w-100">MASUK</button>
+
+      <div class="text-center my-3 text-muted">atau masuk dengan</div>
+
+      <button type="button" class="btn google-btn w-100 d-flex justify-content-center align-items-center">
+        <img src="https://www.svgrepo.com/show/355037/google.svg" alt="Google"> Google
+      </button>
+    </form>
+
+    <p class="text-center mt-3">Belum punya akun? <a href="#" class="text-decoration-none">Daftar Sekarang</a></p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script>
+</body>
+</html>
